@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap');
+body{
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(27, 67, 155);
+}
+
+.container {
+  border: 2px solid black;
+  display: flex;
+  margin-top: 200px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  flex-direction: column;
+  height: 450px;
+  box-shadow: 0 0 10px;
+  background-color: black;
+}
+.display{
+  height: 150px;
+  width: 400px;
+  background-color: rgb(243, 240, 247);
+  /* border: solid 2px green; */
+}
+.child {
+
+  width: 400px;
+  height: 300px;
+  /* border: 2px solid yellow; */
+  display: grid;
+  justify-items: stretch;
+  grid-template-columns: repeat(4, 1fr);
+}
+button{
+border: solid black 1px;
+background-color: rgb(37, 39, 39);
+color: rgb(214, 227, 238);
+outline: none;
+
+}
+p{
+  text-align: right;
+  margin-right: 5px;
+  font-size: 1.5em;
+  
+}
+.display-N{
+  margin-top: 50px;
+}
+button:hover{
+  background: rgb(91, 97, 91);
+}
+
+button:active { 
+  transform: scale(0.98); 
+  /* Scaling button to 0.98 to its original size */ 
+  box-shadow: 3px 2px 22px 1px rgba(37, 39, 39, 0.24); 
+  /* Lowering the shadow */
+} 
